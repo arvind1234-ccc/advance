@@ -16,7 +16,7 @@ import com.ducat.springboot.swagger.util.VOConverterUtil;
 import com.ducat.springboot.swagger.vo.CustomerAddRequest;
 import com.ducat.springboot.swagger.vo.CustomerUpdateRequest;
 import com.ducat.springboot.swagger.vo.LoginVO;
-
+//customer controller
 @RestController
 @RequestMapping(value = "/sensorApp")
 public class CustomerController {
