@@ -15,6 +15,8 @@ import com.ducat.springboot.swagger.vo.CityRequestVO;
  * @author Lenovo
  *
  */
+
+//added here
 @RestController
 @RequestMapping(value = "/sensorApp")
 public class CityController {
@@ -27,6 +29,7 @@ public class CityController {
 	 * @param customerDetails
 	 * @return
 	 */
+///added comment here
 	@PostMapping(value = "/editCity")
 	public ResponseEntity<?> editCity(@RequestBody List<CityRequestVO> cityVO) {
 
@@ -40,3 +43,4 @@ public class CityController {
 	}
 	
 }
+///end here
