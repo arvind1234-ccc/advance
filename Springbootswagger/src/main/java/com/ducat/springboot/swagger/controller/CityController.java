@@ -15,6 +15,8 @@ import com.ducat.springboot.swagger.vo.CityRequestVO;
  * @author Lenovo
  *
  */
+
+//added here
 @RestController
 @RequestMapping(value = "/sensorApp")
 public class CityController {
